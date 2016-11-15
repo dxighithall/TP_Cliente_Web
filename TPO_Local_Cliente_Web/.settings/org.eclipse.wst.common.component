@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TPO_Local_Cliente_Web">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="TPO_Local_Repositorio.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/TPO_Local_Repositorio/TPO_Local_Repositorio">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/TPO_Local_Cliente_Web/build/classes"/>
+        <property name="context-root" value="TPO_Local_Cliente_Web"/>
+    </wb-module>
+</project-modules>

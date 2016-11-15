@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TPO_Local_Cliente_Web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>CargarDatosIniciales</display-name>
+    <servlet-name>CargarDatosIniciales</servlet-name>
+    <servlet-class>servlet.CargarDatosIniciales</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CargarDatosIniciales</servlet-name>
+    <url-pattern>/CargarDatosIniciales</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description></description>
+    <display-name>RMIStart</display-name>
+    <servlet-name>RMIStart</servlet-name>
+    <servlet-class>servlet.RMIStart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RMIStart</servlet-name>
+    <url-pattern>/RMIStart</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>CrudPedido</display-name>
+    <servlet-name>CrudPedido</servlet-name>
+    <servlet-class>servlet.CrudPedido</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrudPedido</servlet-name>
+    <url-pattern>/CrudPedido</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>verRemitos</display-name>
+    <servlet-name>verRemitos</servlet-name>
+    <servlet-class>servlet.verRemitos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>verRemitos</servlet-name>
+    <url-pattern>/verRemitos</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CrudClienteEmpresa</servlet-name>
+    <servlet-class>servlet.CrudClienteEmpresa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrudClienteEmpresa</servlet-name>
+    <url-pattern>/CrudClienteEmpresa</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CrudPedidos</servlet-name>
+    <servlet-class>servlet.CrudPedidos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrudPedidos</servlet-name>
+    <url-pattern>/CrudPedidos</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CrudClienteParticular</servlet-name>
+    <servlet-class>servlet.CrudClienteParticular</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrudClienteParticular</servlet-name>
+    <url-pattern>/CrudClienteParticular</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>pedidos</servlet-name>
+    <servlet-class>servlet.pedidos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pedidos</servlet-name>
+    <url-pattern>/pedidos</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CrudCarga</servlet-name>
+    <servlet-class>servlet.CrudCarga</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrudCarga</servlet-name>
+    <url-pattern>/CrudCarga</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
